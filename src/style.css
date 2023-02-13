@@ -2,7 +2,7 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-header,
+.nav,
 footer {
   display: flex;
   align-items: center;
