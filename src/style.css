@@ -4,6 +4,12 @@
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .nav,
 footer {
   display: flex;
@@ -31,11 +37,20 @@ li > a:hover {
 ul {
   list-style: none;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 5rem;
+  flex-wrap: wrap;
 }
 
 #logo {
   width: 50px;
   height: auto;
+}
+
+.movies li h3 {
+  text-align: center;
+}
+
+.movies li .flex {
+  margin: 15px;
 }
