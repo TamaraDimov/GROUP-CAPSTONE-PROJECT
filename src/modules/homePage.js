@@ -6,14 +6,14 @@ const homePage = async (shows) => {
     showContainer.innerHTML += `
         <li id="show-${item.id}" class="single-movie">
         <img src=${item.image.medium} alt="movie-image" class="image-pic" />
-        <div class="desc">
-          <p class="movie-title">${item.name}</p>
+        <h4 class="movie-title">${item.name}</h4>
+        <div class="description">
           <div class="likes">
             <i class="fa-sharp fa-regular fa-heart" data-id=${item.id}></i>            
-            <p data-id = "${item.id}"> <span class="like-count"></span> likes</p>
+            <p data-id = "${item.id}"> <span class="like-count"></span></p>
           </div>
-        </div>
-        <button class="comments-btn" id=${item.id}>Comments</button>
+          <button class="comments-btn" id=${item.id}>Comments</button>
+          </div>
       </li>
     `;
   });
