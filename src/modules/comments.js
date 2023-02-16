@@ -47,7 +47,7 @@ const showComment = (data, node) => {
   if (!data.error) {
     data.forEach((element) => {
       const item = document.createElement('p');
-      item.innerHTML = `<span>${element.creation_date} ${element.username}: ${element.comment}</span>`;
+      item.innerHTML = `<span class="data-comment"><small> ${element.creation_date} </small>${element.username}: ${element.comment}</span>`;
       commentitem.appendChild(item);
     });
   }

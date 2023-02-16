@@ -7,6 +7,18 @@
   box-sizing: border-box;
 }
 
+body {
+  background: url(./images/thrd.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer .fa-film,
+.nav .fa-film {
+  font-size: 36px;
+}
+
 .flex {
   display: flex;
   justify-content: space-between;
@@ -18,13 +30,16 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 2rem;
-  background-color: #000;
+  padding: 10px 4rem;
+  padding-top: 10px;
+
+  /* background-color: #000; */
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 footer {
+  background-color: #000;
   font-style: italic;
   margin-bottom: 0;
   margin-top: 20px;
@@ -38,6 +53,29 @@ li > a {
 
 li > a:hover {
   font-size: large;
+}
+
+.form-container {
+  margin: 10px;
+  text-align: start;
+}
+
+.form-container h4 {
+  padding: 10px;
+}
+
+.comments-container {
+  text-align: start;
+}
+
+.comments-container h4 {
+  padding: 10px;
+}
+
+.comment-items .data-comment {
+  font-size: small;
+  font-weight: 100;
+  font-style: italic;
 }
 
 ul {
@@ -64,7 +102,7 @@ ul {
 }
 
 .movies li .flex {
-  margin: 15px;
+  margin: 14px;
 }
 
 .movies li .flex span:last-child {
@@ -80,8 +118,22 @@ ul {
   height: auto;
 }
 
-.movie-features,
-.movie-popup-title {
+.movie-features {
+  text-align: start;
+}
+
+.single-movie {
+  color: #fff;
+}
+
+.movie-pop-title {
+  text-align: center;
+  color: rgb(23, 190, 190);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.movie-info {
   text-align: center;
 }
 
@@ -110,6 +162,8 @@ ul {
   background-color: #000;
   color: #fff;
   width: 80%;
+  box-shadow: rgb(253 253 255 / 57%) 0 50px 100px -20px, rgb(240 231 231 / 30%) 0 30px 60px -30px, rgb(115 156 196 / 35%) 0 -2px 6px 0 inset;
+  border-radius: 10px;
 }
 
 .form-content {
