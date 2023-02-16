@@ -40,7 +40,7 @@ After you're finished please remove all the comments and instructions!
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  - [🚀 Live Demo and project presentation](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -74,9 +74,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo and project presentation <a name="live-demo"></a>
 
 - [Live Demo Link](https://tamaradimov.github.io/GROUP-CAPSTONE-PROJECT/dist/)
+
+ - [Project presentation](https://www.loom.com/share/9ccfe0dd7ad14012b461c2d3f65fcf3d)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
