@@ -24,9 +24,6 @@ window.addEventListener('load', async () => {
   homePage(shows);
   addEvents();
   getLike();
-  const movieLink = document.querySelector('.movie');
-  movieLink.textContent += movieCounter();
-  movieCounter();
 
   document.addEventListener('click', async (e) => {
     const button = e.target.closest('.comments-btn');
@@ -34,11 +31,10 @@ window.addEventListener('load', async () => {
 
     if (button) {
       const selectedShow = shows.filter(
-        (it) => it.id.toString() === button.id.toString(),
+        (it) => it.id.toString() === button.id.toString()
       )[0];
-      const {
-        id, image, name, language, genres, rating, schedule,
-      } = selectedShow;
+      const { id, image, name, language, genres, rating, schedule } =
+        selectedShow;
       showContainer.style.display = 'none';
       popupContainer.style.display = 'flex';
       renderPopup(id, image, name, language, genres, rating, schedule);
