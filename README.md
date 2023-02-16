@@ -29,7 +29,7 @@ After you're finished please remove all the comments and instructions!
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <br/>
 
-  <h3><b> README Template</b></h3>
+  <h3><b> MOVIES.COM README Template</b></h3>
 
 </div>
 
@@ -39,7 +39,6 @@ After you're finished please remove all the comments and instructions!
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
@@ -57,9 +56,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
-
-> Describe your project in 1 or 2 sentences.
+# 📖 MOVIES.COM <a name="about-project"></a>
 
 **MOVIES.COM** is the 2nd Capstone Project in the Microverse curriculum.Our project is a webpage that give us sugestion about movies and also we can comment and like movies.
 
@@ -68,8 +65,6 @@ After you're finished please remove all the comments and instructions!
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **API**
 - **JavaScript**
@@ -81,9 +76,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://tamaradimov.github.io/GROUP-CAPSTONE-PROJECT/)
+- [Live Demo Link](https://tamaradimov.github.io/GROUP-CAPSTONE-PROJECT/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,18 +86,20 @@ After you're finished please remove all the comments and instructions!
 
 To get a local copy up and running, follow these steps.
 
-Clone the Repo or Download the Zip file or
+-Clone the Repo or Download the Zip file or
 https://github.com/TamaraDimov/GROUP-CAPSTONE-PROJECT.git
-cd /leaderboard
-Open it with the live server
+
+-cd /leaderboard
+
+-Open it with the live server
 
 ### Prerequisites
 
 In order to run this project you need:
 
-Git/Github
-HTML and CSS knowledge
-VS code or any other equivalent tool.
+-Git/Github
+-HTML and CSS knowledge
+-VS code or any other equivalent tool.
 
 ### Setup
 
@@ -123,8 +118,11 @@ Example commands:
 
 To install locally run git clone
 https://github.com/TamaraDimov/GROUP-CAPSTONE-PROJECT.git
+
 -Open the cloned directory with VSCode
+
 -Install live server extension for VSCode
+
 -Right click on the index.html and select open with live servers
 
 <!--
@@ -144,19 +142,21 @@ For tracking linter errors locally you need to follow these steps:
 
 After cloning the project you need to run these commands
 
-`npm install` `This command will download all the dependancies of the project`
+ - `npm install`
+ 
+This command will download all the dependancies of the project
 
 For tracking linter errors in HTML files run:
 
-`npx hint .`
+ - `npx hint .`
 
 For tracking linter errors in CSS or SASS files run:
 
-`npx stylelint "**/*.{css,scss}`
+ - `npx stylelint "**/*.{css,scss}`
 
 And For tracking linter errors in JavaScript files run:
 
-`npx eslint .`
+ - `npx eslint .`
 
 <!--
 Example command:
@@ -172,7 +172,6 @@ Example command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Tamara Dimov**
 
@@ -192,11 +191,9 @@ Example command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+- [ ] **You can add movie**
+- [ ] **dislike button**
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -214,9 +211,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please give it a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -224,7 +219,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for granting me the knowledge to do this.
+We would like to thank Microverse for granting me the knowledge to do this.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -234,13 +229,13 @@ I would like to thank Microverse for granting me the knowledge to do this.
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **Can I download movie from this webside?**
 
-  - [Answer_1]
+  - Unfortunately that is not possible...yet :)
 
-- **[Question_2]**
+- **Great page!**
 
-  - [Answer_2]
+  - Thank you very much
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -248,7 +243,7 @@ I would like to thank Microverse for granting me the knowledge to do this.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
