@@ -29,7 +29,7 @@ After you're finished please remove all the comments and instructions!
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <br/>
 
-  <h3><b> README Template</b></h3>
+  <h3><b> MOVIES.COM README Template</b></h3>
 
 </div>
 
@@ -39,16 +39,13 @@ After you're finished please remove all the comments and instructions!
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -59,48 +56,19 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 MOVIES.COM <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**MOVIES.COM** is the 2nd Capstone Project in the Microverse curriculum.Our project is a webpage that give us sugestion about movies and also we can comment and like movies.
 
 ## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **API**
+- **JavaScript**
+- **HTML/CSS**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,9 +76,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://tamaradimov.github.io/GROUP-CAPSTONE-PROJECT/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,21 +84,22 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
+
+-Clone the Repo or Download the Zip file or
+https://github.com/TamaraDimov/GROUP-CAPSTONE-PROJECT.git
+
+-cd /leaderboard
+
+-Open it with the live server
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+-Git/Github
+-HTML and CSS knowledge
+-VS code or any other equivalent tool.
 
 ### Setup
 
@@ -149,7 +116,14 @@ Example commands:
 
 ### Install
 
-Install this project with:
+To install locally run git clone
+https://github.com/TamaraDimov/GROUP-CAPSTONE-PROJECT.git
+
+-Open the cloned directory with VSCode
+
+-Install live server extension for VSCode
+
+-Right click on the index.html and select open with live servers
 
 <!--
 Example command:
@@ -160,21 +134,29 @@ Example command:
 ```
 --->
 
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
 ### Run tests
 
 To run tests, run the following command:
+
+For tracking linter errors locally you need to follow these steps:
+
+After cloning the project you need to run these commands
+
+- `npm install`
+
+This command will download all the dependancies of the project
+
+For tracking linter errors in HTML files run:
+
+- `npx hint .`
+
+For tracking linter errors in CSS or SASS files run:
+
+- `npx stylelint "**/*.{css,scss}`
+
+And For tracking linter errors in JavaScript files run:
+
+- `npx eslint .`
 
 <!--
 Example command:
@@ -184,37 +166,23 @@ Example command:
 ```
 --->
 
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Tamara Dimov**
 
-👤 **Author1**
+- GitHub: [@TamaraDimov](https://github.com/TamaraDimov)
+- Twitter: [@DimovTamara](https://twitter.com/home)
+- LinkedIn: [Tamara Dimov](https://www.linkedin.com/in/tamara-dimov-b85139a2/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Naji Ali**
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@gnaji-97](https://github.com/naji-97)
+- Twitter: [@twitterhandle](https://twitter.com/Naji_2023)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/naji-ali-55b5421b3/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,11 +190,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **You can add movie**
+- [ ] **dislike button**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -244,9 +209,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please give it a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -254,9 +217,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+We would like to thank Microverse for granting me the knowledge to do this.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -266,13 +227,13 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **Can I download movie from this webside?**
 
-  - [Answer_1]
+  - Unfortunately that is not possible...yet :)
 
-- **[Question_2]**
+- **Great page!**
 
-  - [Answer_2]
+  - Thank you very much
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -280,7 +241,7 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
