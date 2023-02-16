@@ -31,10 +31,11 @@ window.addEventListener('load', async () => {
 
     if (button) {
       const selectedShow = shows.filter(
-        (it) => it.id.toString() === button.id.toString()
+        (it) => it.id.toString() === button.id.toString(),
       )[0];
-      const { id, image, name, language, genres, rating, schedule } =
-        selectedShow;
+      const {
+        id, image, name, language, genres, rating, schedule,
+      } = selectedShow;
       showContainer.style.display = 'none';
       popupContainer.style.display = 'flex';
       renderPopup(id, image, name, language, genres, rating, schedule);
