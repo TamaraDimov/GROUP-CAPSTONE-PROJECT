@@ -6,8 +6,6 @@ import getMovie from './modules/getMovies.js';
 import renderPopup from './modules/renderPopup.js';
 import movieCounter from './modules/counterMovie.js';
 
-export default movieCounter;
-
 const showContainer = document.querySelector('.movie-section');
 const popupContainer = document.querySelector('.popup-display');
 const addEvents = () => {
@@ -31,11 +29,10 @@ window.addEventListener('load', async () => {
 
     if (button) {
       const selectedShow = shows.filter(
-        (it) => it.id.toString() === button.id.toString(),
+        (it) => it.id.toString() === button.id.toString()
       )[0];
-      const {
-        id, image, name, language, genres, rating, schedule,
-      } = selectedShow;
+      const { id, image, name, language, genres, rating, schedule } =
+        selectedShow;
       showContainer.style.display = 'none';
       popupContainer.style.display = 'flex';
       renderPopup(id, image, name, language, genres, rating, schedule);
