@@ -4,6 +4,9 @@ import postLike from './modules/postLike.js';
 import homePage from './modules/homePage.js';
 import getMovie from './modules/getMovies.js';
 import renderPopup from './modules/renderPopup.js';
+import movieCounter from './modules/counterMovie.js';
+
+export default movieCounter;
 
 const showContainer = document.querySelector('.movie-section');
 const popupContainer = document.querySelector('.popup-display');
@@ -21,6 +24,9 @@ window.addEventListener('load', async () => {
   homePage(shows);
   addEvents();
   getLike();
+  const movieLink = document.querySelector('.movie');
+  movieLink.textContent += movieCounter();
+  movieCounter();
 
   document.addEventListener('click', async (e) => {
     const button = e.target.closest('.comments-btn');

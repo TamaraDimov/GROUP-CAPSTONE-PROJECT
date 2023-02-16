@@ -46,9 +46,7 @@ After you're finished please remove all the comments and instructions!
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -63,34 +61,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**MOVIES.COM** is the 2nd Capstone Project in the Microverse curriculum.Our project is a webpage that give us sugestion about movies and also we can comment and like movies.
 
 ## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
@@ -98,9 +71,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **API**
+- **JavaScript**
+- **HTML/CSS**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +83,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://tamaradimov.github.io/GROUP-CAPSTONE-PROJECT/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,21 +91,20 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
+
+Clone the Repo or Download the Zip file or
+https://github.com/TamaraDimov/GROUP-CAPSTONE-PROJECT.git
+cd /leaderboard
+Open it with the live server
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+Git/Github
+HTML and CSS knowledge
+VS code or any other equivalent tool.
 
 ### Setup
 
@@ -149,7 +121,11 @@ Example commands:
 
 ### Install
 
-Install this project with:
+To install locally run git clone
+https://github.com/TamaraDimov/GROUP-CAPSTONE-PROJECT.git
+-Open the cloned directory with VSCode
+-Install live server extension for VSCode
+-Right click on the index.html and select open with live servers
 
 <!--
 Example command:
@@ -160,21 +136,27 @@ Example command:
 ```
 --->
 
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
 ### Run tests
 
 To run tests, run the following command:
+
+For tracking linter errors locally you need to follow these steps:
+
+After cloning the project you need to run these commands
+
+`npm install` `This command will download all the dependancies of the project`
+
+For tracking linter errors in HTML files run:
+
+`npx hint .`
+
+For tracking linter errors in CSS or SASS files run:
+
+`npx stylelint "**/*.{css,scss}`
+
+And For tracking linter errors in JavaScript files run:
+
+`npx eslint .`
 
 <!--
 Example command:
@@ -184,18 +166,6 @@ Example command:
 ```
 --->
 
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -204,17 +174,17 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Tamara Dimov**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@TamaraDimov](https://github.com/TamaraDimov)
+- Twitter: [@DimovTamara](https://twitter.com/home)
+- LinkedIn: [Tamara Dimov](https://www.linkedin.com/in/tamara-dimov-b85139a2/)
 
-👤 **Author2**
+👤 **Naji Ali**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@gnaji-97](https://github.com/naji-97)
+- Twitter: [@twitterhandle](https://twitter.com/Naji_2023)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/naji-ali-55b5421b3/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -254,9 +224,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank Microverse for granting me the knowledge to do this.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
