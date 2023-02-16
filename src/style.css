@@ -7,11 +7,11 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   background: url(./images/thrd.jpeg);
   background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .flex {
@@ -31,13 +31,10 @@ footer {
   /* background-color: #000; */
   color: #fff;
   margin-bottom: 50px;
-
-}
-footer{
-  background-color: #000;
 }
 
 footer {
+  background-color: #000;
   font-style: italic;
   margin-bottom: 0;
   margin-top: 20px;
@@ -53,34 +50,29 @@ li > a:hover {
   font-size: large;
 }
 
-.form-container{
+.form-container {
   margin: 10px;
   text-align: start;
 }
 
-.form-container h4{
+.form-container h4 {
   padding: 10px;
-  
 }
 
-.comments-container{
+.comments-container {
   text-align: start;
 }
 
-.comments-container h4{
+.comments-container h4 {
   padding: 10px;
-  
 }
 
-.movie-features{
-  text-align: start;
+.comment-items .data-comment {
+  font-size: small;
+  font-weight: 100;
+  font-style: italic;
 }
 
-.comment-items .data-comment{
-font-size: small;
-font-weight: 100;
-font-style: italic;
-}
 ul {
   list-style: none;
   display: flex;
@@ -121,13 +113,14 @@ ul {
   height: auto;
 }
 
-.movie-features{
+.movie-features {
   text-align: start;
 }
 
-.single-movie{
-  color:#fff;
+.single-movie {
+  color: #fff;
 }
+
 .movie-pop-title {
   text-align: center;
   color: aqua;
@@ -135,7 +128,7 @@ ul {
   font-style: italic;
 }
 
-.movie-info{
+.movie-info {
   text-align: center;
 }
 
@@ -164,7 +157,7 @@ ul {
   background-color: #000;
   color: #fff;
   width: 80%;
-  box-shadow:  rgb(253 253 255 / 57%) 0px 50px 100px -20px, rgb(240 231 231 / 30%) 0px 30px 60px -30px, rgb(115 156 196 / 35%) 0px -2px 6px 0px inset;
+  box-shadow: rgb(253 253 255 / 57%) 0 50px 100px -20px, rgb(240 231 231 / 30%) 0 30px 60px -30px, rgb(115 156 196 / 35%) 0 -2px 6px 0 inset;
   border-radius: 10px;
 }
 
