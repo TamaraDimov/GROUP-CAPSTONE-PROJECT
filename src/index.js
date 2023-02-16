@@ -4,6 +4,7 @@ import postLike from './modules/postLike.js';
 import homePage from './modules/homePage.js';
 import getMovie from './modules/getMovies.js';
 import renderPopup from './modules/renderPopup.js';
+import movieCounter from './modules/counterMovie.js'
 
 const showContainer = document.querySelector('.movie-section');
 const popupContainer = document.querySelector('.popup-display');
@@ -16,12 +17,15 @@ const addEvents = () => {
   });
 };
 
+
 window.addEventListener('load', async () => {
   const shows = await getMovie();
   homePage(shows);
   addEvents();
   getLike();
-
+  const movieLink = document.querySelector('.movie')
+  movieLink.innerHTML= `Home <i class="fa-solid fa-clapperboard"></i>(${movieCounter()})`
+  movieCounter()
   document.addEventListener('click', async (e) => {
     const button = e.target.closest('.comments-btn');
     const closeButton = e.target.closest('.close-icon');
