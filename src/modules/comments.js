@@ -1,5 +1,6 @@
 const addComment = (id, name, msg) => {
   if (name.value !== '' && msg.value !== '') {
+    // if name and msg not empty add New
     // eslint-disable-next-line no-use-before-define
     addnewComent(id, name.value, msg.value);
     name.value = '';
@@ -7,7 +8,7 @@ const addComment = (id, name, msg) => {
   }
 };
 
-const formComment = (newcommetId, node) => {
+const formComment = (commentId, node) => {
   const commentTitle = document.createElement('div');
   commentTitle.classList.add('form-container');
   commentTitle.innerHTML = '<h4> Add a Comment </h4>';
@@ -21,7 +22,7 @@ const formComment = (newcommetId, node) => {
   const msg = form.querySelector('.msg');
   btncomment.addEventListener('click', (e) => {
     e.preventDefault();
-    addComment(newcommetId, username, msg);
+    addComment(commentId, username, msg);
   });
   commentTitle.appendChild(form);
   node.appendChild(commentTitle);
@@ -29,19 +30,19 @@ const formComment = (newcommetId, node) => {
 
 // counter for number of comments for a single item
 const counter = (comment) => {
-  let counter = comment.length;
+  let commentCounter = comment.length;
   if (comment.error) {
-    counter = 0;
+    commentCounter = 0;
   }
-  return counter;
+  return commentCounter;
 };
 
 // function to Display comments given for a single item
-const showComment = (data, node) => {
-  node.innerHTML = '';
+const showComment = (data, element) => {
+  element.innerHTML = '';
   const head = document.createElement('h4');
   head.innerHTML = `Comments (${counter(data)})`;
-  node.appendChild(head);
+  element.appendChild(head);
   const commentitem = document.createElement('div');
   commentitem.classList.add('comment-items');
   if (!data.error) {
@@ -51,7 +52,7 @@ const showComment = (data, node) => {
       commentitem.appendChild(item);
     });
   }
-  node.appendChild(commentitem);
+  element.appendChild(commentitem);
 };
 
 // address for comments API
@@ -63,7 +64,6 @@ const getAddedComments = async (id) => {
   const response = await fetch(request);
   const comment = await response.json();
   return comment;
-  // console.log(comment);
 };
 
 const addnewComent = async (id, name, msg) => {
