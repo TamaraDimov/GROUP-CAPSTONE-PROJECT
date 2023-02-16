@@ -1,4 +1,4 @@
-import movieCounter from '../counterMovie';
+import movieCounter from '../counterMovie.js';
 
 describe('movieCounter', () => {
   test('returns the number of child elements in .main-section', () => {
