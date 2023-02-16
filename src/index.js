@@ -22,6 +22,7 @@ window.addEventListener('load', async () => {
   homePage(shows);
   addEvents();
   getLike();
+  movieCounter();
 
   document.addEventListener('click', async (e) => {
     const button = e.target.closest('.comments-btn');
