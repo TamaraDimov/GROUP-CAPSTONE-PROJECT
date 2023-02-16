@@ -14,6 +14,11 @@ body {
   background-repeat: no-repeat;
 }
 
+footer .fa-film,
+.nav .fa-film {
+  font-size: 36px;
+}
+
 .flex {
   display: flex;
   justify-content: space-between;
