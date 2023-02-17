@@ -44,7 +44,6 @@ window.addEventListener('load', async () => {
     if (closeButton) {
       popupContainer.style.display = 'none';
       showContainer.style.display = 'flex';
-      // renderHomePage(shows);
       addEvents();
       getLike();
     }
